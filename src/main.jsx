@@ -5,13 +5,15 @@ import App from './App.jsx'
 import Judshi from './Judshi.jsx'
 import Nav from './Nav.jsx'
 import Table from './Table.jsx'
+import Properties from './Properties.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Judshi/>
-    <Nav/>
-    <Table/>
+    {/*<Judshi/>*/}
+    {/*<Nav/>*/}
+    {/*<Table/>*/}
     {/* <App /> */}
+    <Properties name="Developers" content="How Are You"/>
 
   </StrictMode>,
 )

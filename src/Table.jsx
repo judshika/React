@@ -5,6 +5,7 @@ function Table(){
 <table class="table"border="1">
   <thead>
     <tr>
+      <th scope="row">No.</th>
       <th scope="col">First Name</th>
       <th scope="col">Last Name</th>
       <th scope="col">Age</th>
